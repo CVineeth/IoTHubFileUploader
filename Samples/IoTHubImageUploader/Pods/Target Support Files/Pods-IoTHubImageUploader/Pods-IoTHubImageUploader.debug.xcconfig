@@ -1,0 +1,10 @@
+ALWAYS_SEARCH_USER_PATHS = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTHubClient" "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTUtility" "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTuAmqp" "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTuMqtt"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTHubClient/AzureIoTHubClient.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTUtility/AzureIoTUtility.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTuAmqp/AzureIoTuAmqp.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/AzureIoTuMqtt/AzureIoTuMqtt.framework/Headers" "${PODS_ROOT}/AzureIoTHubClient/inc/" "${PODS_ROOT}/AzureIoTUtility/inc/" "${PODS_ROOT}/AzureIoTuMqtt/inc/" "${PODS_ROOT}/AzureIoTuAmqp/inc/" "${PODS_ROOT}/AzureIoTUtility/inc/" "${PODS_ROOT}/AzureIoTUtility/inc/" "${PODS_ROOT}/AzureIoTuAmqp/inc/" "${PODS_ROOT}/AzureIoTUtility/inc/" "${PODS_ROOT}/AzureIoTuMqtt/inc/"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "AzureIoTHubClient" -framework "AzureIoTUtility" -framework "AzureIoTuAmqp" -framework "AzureIoTuMqtt"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

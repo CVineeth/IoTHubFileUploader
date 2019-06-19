@@ -1,0 +1,33 @@
+PODS:
+  - AzureIoTHubClient (1.2.4):
+    - AzureIoTuAmqp (= 1.2.4)
+    - AzureIoTuMqtt (= 1.1.4)
+    - AzureIoTUtility (= 1.1.4)
+  - AzureIoTuAmqp (1.2.4):
+    - AzureIoTUtility (= 1.1.4)
+  - AzureIoTuMqtt (1.1.4):
+    - AzureIoTUtility (= 1.1.4)
+  - AzureIoTUtility (1.1.4)
+
+DEPENDENCIES:
+  - AzureIoTHubClient
+  - AzureIoTuAmqp
+  - AzureIoTuMqtt
+  - AzureIoTUtility
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AzureIoTHubClient
+    - AzureIoTuAmqp
+    - AzureIoTuMqtt
+    - AzureIoTUtility
+
+SPEC CHECKSUMS:
+  AzureIoTHubClient: 343127ac6edc62af3fe62221243a2ee8e906b5fb
+  AzureIoTuAmqp: 093aceeea0dc17e38e9fbd785ce2c3a7a7346065
+  AzureIoTuMqtt: 99005699e0c575d47a2c3878e95769562991f83b
+  AzureIoTUtility: cf0e15e2342f7c28f9798f3330ccb5d60950fede
+
+PODFILE CHECKSUM: 4b47b0548771d90532b09c97276920ae031ee41f
+
+COCOAPODS: 1.6.0.beta.2
